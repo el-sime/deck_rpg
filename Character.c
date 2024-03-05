@@ -15,6 +15,6 @@ Character CharacterFactory(int level, CharacterType type)
     newChar.HitPoints.baseValue = newChar.HitPoints.currentValue = newChar.HitPoints.maxValue = hp;
     int ap = 5 + level;
     newChar.ActionPoints.baseValue = newChar.ActionPoints.currentValue = newChar.ActionPoints.maxValue = ap;
-
+    newChar.Position.x = newChar.Position.y = 0.0f;
     return newChar;
 }

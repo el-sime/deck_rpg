@@ -1,6 +1,8 @@
 #ifndef CHARACTER_H
 #define CHARACTER_H
 
+#include "raylib.h"
+
 typedef enum CharacterTypes {
     PLAYER,
     NPC
@@ -14,6 +16,7 @@ typedef struct Attributes {
 
 typedef struct Character {
     char Name[100];
+    Vector2 Position;
     int Level;
     float XP;
     int CharacterPoints;
