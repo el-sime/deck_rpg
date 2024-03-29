@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "raylib.h"
+
 //#include "screens.h"
 //#include "Character.h"
 
@@ -58,7 +59,7 @@ int main(int argc, char *argv[])
 				Vector2 isoCoords = Ortho2Iso(orthoCoords);
 				Rectangle dest = {isoCoords.x, isoCoords.y, 128, 74};
 				Vector2 origin = {0.0f, 0.0f};
-				Color color = x % 1 == 0 ? RED : GREEN;
+				Color color = x % 2 == 0 ? RED : GREEN;
 				DrawTexturePro(levelTiles[background[y][x]], frameRec, dest,origin, 0.0f, color);
 				if(debug == 0) printf("texture height : (%f, %f)\n", isoCoords.x, isoCoords.y);
 			}

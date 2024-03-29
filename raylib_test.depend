@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1709501058 source:/home/deck/projects/raylib_test/main.c
+1711670231 source:/home/deck/projects/raylib_test/main.c
 	<stdio.h>
 	<stdlib.h>
 	"raylib.h"
+	"Constants.h"
 	"screens.h"
 	"Character.h"
 
@@ -12,9 +13,13 @@
 
 1709064383 /home/deck/projects/raylib_test/screens.h
 
-1709501234 /home/deck/projects/raylib_test/Character.h
+1711699213 /home/deck/projects/raylib_test/Character.h
+	"raylib.h"
 
-1709501084 source:/home/deck/projects/raylib_test/Character.c
+1711699213 source:/home/deck/projects/raylib_test/Character.c
 	"Character.h"
 	<string.h>
+
+1711669455 /home/deck/projects/raylib_test/Constants.h
+	"raylib.h"
 
